@@ -2,12 +2,12 @@ cask "prompthub" do
   version "0.4.4"
 
   on_arm do
-    sha256 "89743871f187234615e3f3f520c84c127457bbb9559c08a40ae943f096dbdebb"
+    sha256 "fd275a45e1c3fa0b5165e9862678a64b86c25a3c8bcfb72ef33f5c4f2790bdc4"
     url "https://github.com/legeling/PromptHub/releases/download/v#{version}/PromptHub-#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "dc25309edbaf771bb37643fab2297133457f646f55f1f92789f154e08ef9de53"
+    sha256 "afce64ae941eb7e4fcde7437c9512307ecb333c69c860ecfbb6cafb766a3e450"
     url "https://github.com/legeling/PromptHub/releases/download/v#{version}/PromptHub-#{version}-x64.dmg"
   end
 
