@@ -22,12 +22,8 @@ brew uninstall --cask prompthub
 brew untap legeling/tap
 ```
 
-## ⚠️ macOS Security Notice
+## macOS signing and notarization
 
-PromptHub is not currently code-signed with an Apple Developer certificate. On first launch, macOS may block the app. To resolve this, run:
+The current PromptHub macOS packages are signed with a Developer ID certificate and notarized by Apple. Homebrew verifies the release-specific SHA256 values before installation.
 
-```bash
-sudo xattr -rd com.apple.quarantine /Applications/PromptHub.app
-```
-
-Or go to **System Settings > Privacy & Security** and click "Open Anyway".
+If macOS cannot verify a download, download the current package again from the official GitHub Release or reinstall through this tap.
